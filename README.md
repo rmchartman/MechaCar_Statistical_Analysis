@@ -1,7 +1,7 @@
 # MechaCar Statistical Analysis
 
 ## Linear Regression to Predeict MPG
-![LM~MPG]("https://github.com/rmchartman/MechaCar_Statistical_Analysis/blob/main/Images/LM~MPG.png")
+![LM~MPG](https://github.com/rmchartman/MechaCar_Statistical_Analysis/blob/main/Images/LM~MPG.png)
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 Given the fv=ive variables to predict mpg for MechaCar prototypes, the vehical length, vehical weight, and ground clearance are statistically significant predictors ot mpg at the 0.05 level. 
@@ -18,17 +18,17 @@ This linear model effectively predicts the mpg of MechaCar prototypes since the 
 Reveiwing the Total Summary below, the variance is 62.3, which is less than 100 for all manufacturing lots in total, meaning the suspension coils collectively meet design specifications. However, while reviewing the Lot Summary below, only Lot 1 and 2 meet the design specifications with a variance less than 100 lbs/in^2.
 
 ### Total Summary
-![D2-TotalSummary]("https://github.com/rmchartman/MechaCar_Statistical_Analysis/blob/main/Images/D2-TotalSummary.png")
+![D2-TotalSummary](https://github.com/rmchartman/MechaCar_Statistical_Analysis/blob/main/Images/D2-TotalSummary.png)
 
 ### Lot Summary
-![D2-LotSummary]("https://github.com/rmchartman/MechaCar_Statistical_Analysis/blob/main/Images/D2-LotSummary.png")
+![D2-LotSummary](https://github.com/rmchartman/MechaCar_Statistical_Analysis/blob/main/Images/D2-LotSummary.png)
 
 
 ## T-Tests on Suspension Coils
 - Determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 Reviewing the T-test results below, the lots all together are not statistically different at the 0.05 level from the population mean of 1,500 lbs/in^2 as the p-value is greater than0.05 at 0.535. Looking at each individual lot, the p-values are smaller, but still not statistically significant at the 0.05 level, meaning we fail to reject the null hypothesis that the lots are the same as the poulation mean of 1,500 lbs/in^2. 
 
-![D3-TTest]("https://github.com/rmchartman/MechaCar_Statistical_Analysis/blob/main/Images/D3-TTests.png")
+![D3-TTest](https://github.com/rmchartman/MechaCar_Statistical_Analysis/blob/main/Images/D3-TTests.png)
 
 ## Study Design: MechaCar vs Competition
 To determine how MechaCar compares to the competiton, I would use T-tests to compare variables such as average mpg, average cost, or average safty rating between the two companies to determine if the samples are statistically different from one another. This would help determine if MechaCar is statistically different from a competitor on each of these variables. We would require a breakdown of the mpg, cost, and safety rating for each model or prototype of MechaCar and the competator. 
